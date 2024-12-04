@@ -3,6 +3,11 @@ enum GenreM{Fiction,Tech,Sports,News}
 public class Magazine extends Article {
 	String publisher;
 	GenreM genre;
+	public Magazine(String t, String r, int d, String publisher, GenreM genre) {
+		super(t,r,d);
+		this.genre=genre;
+		this.publisher=publisher;
+	}
 	public Magazine(String t, String r, float p, String publisher, GenreM genre) {
 		super(t,r,p);
 		this.genre=genre;
