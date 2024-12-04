@@ -3,7 +3,11 @@ enum GenreV{Rock, Pop, Jazz, Classique, Métal}
 public class Vinyles extends Article{
 	private GenreV genre;
 	private String singer;
-
+	public Vinyles(String t, String r, int d,GenreV genre,String singer){
+		super(t,r,d);
+		this.genre=genre;
+		this.singer=singer;
+	}
 	public Vinyles(String t, String r, float p,GenreV genre,String singer){
 		super(t,r,p);
 		this.genre=genre;
