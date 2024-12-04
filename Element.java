@@ -7,6 +7,11 @@ public class Element {
 		this.article=article;
 		quantite=q;
 	}
+	public Element(String t, String r,int d, int quantite, Article article){
+		this.article=article;
+		this.quantite=quantite;
+		this.article =new Article(t,r,d);
+	}
 	public Element(String t, String r, float p, int quantite, Article article){
 		this.article=article;
 		this.quantite=quantite;
