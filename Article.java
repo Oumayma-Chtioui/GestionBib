@@ -43,6 +43,11 @@ public class Article {
 	public void setPrix(float p) {
 		prix=p;
 	}
-	
+	public int getDuree(){
+		return duree;
+	}
+	public void setDuree(int d){
+		duree=d;
+	}
 	
 }	
