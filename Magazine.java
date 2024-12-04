@@ -14,7 +14,7 @@ public class Magazine extends Article {
 	public GenreM getGenre() {
 		return genre;
 	}
-	public void setAuthor(String publisher) {
+	public void setPublisher(String publisher) {
 		this.publisher=publisher;
 	}
 	public void setGenre(GenreM genre) {
