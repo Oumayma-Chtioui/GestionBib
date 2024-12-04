@@ -4,11 +4,16 @@ public class Article {
 	String title;
 	String reference;
 	float prix;
-	
+	int duree;
 	public Article(String t, String r, float p) {
 		title=t;
 		reference=r;
 		prix=p;
+	}
+	public Article(String ref,String title, int duree) {
+		reference=ref;
+		this.title=title;
+		this.duree=duree;
 	}
 	/*public String genererReference(String nom,int id) {
 		String reference="";
